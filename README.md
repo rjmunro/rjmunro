@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<details><summary>Over 25 years of experience developing websites, web applications and mobile applications, recently in Typescript using React and NodeJS.</summary>
+<details><summary>Over 25 years of experience developing websites, web applications and mobile applications, mostly in Typescript using React and NodeJS.</summary>
 
 I have over 25 years experience developing websites, web applications and mobile applications. My
 recent roles have been developing client-side and server-side applications in Typescript using React
@@ -24,7 +24,7 @@ software that drives business success.
 
 </details>
 
-<details><summary>Considered a "git wizard" by colleagues</summary>
+<details><summary>Considered a "git wizard" by colleagues, with extensive experience in advanced Git workflows and CI/CD.</summary>
 
 I have given company wide talks on the git version control
 system. I have written pre-commit hooks to check code for linting errors before committing and worked
@@ -42,7 +42,7 @@ command to fix a bug when a single commit has a large number of CI jobs.
 
 </details>
 
-<details><summary>Configuration as code</summary>
+<details><summary>Fan of configuration as code, including developing tools for Redash BI server configuration and Bitfocus Companion.</summary>
 
 I like to ensure all configuration is managed as code and tracked in source control. I've written a
 [tool](https://github.com/rjmunro/redash-loader) to extract the query and dashboard configuration
@@ -60,7 +60,7 @@ without the build tools. I've used docker-compose to orchestrate containers.
 
 </details>
 
-<details><summary>Experienced with Agile practices and collaboration to find innovative solutions</summary>
+<details><summary>Experienced with Agile practices and collaboration to find innovative solutions.</summary>
 
 I'm experienced with Agile working practises and have led planning, retrospective and daily stand up
 meetings. I enjoy working with product owners to find innovative solutions that improve customer
@@ -70,18 +70,20 @@ experience at the same time as streamlining development.
 
 #### Hobbies and Community Contributions
 
-<details><summary>Extensive volunteer experience in audio-visual operations</summary>
+<details><summary>Extensive volunteer experience in audio-visual operations.</summary>
 
 In my spare time I have a volunteered in audio-visual operation since I was a young teenager. I have
 about 20 years experience about once a month as a sound engineer, but I now mostly direct and vision
 mix live multi-camera video for our
-[YouTube Live streams](https://www.youtube.com/playlist?list=PLKlHRaG4bStPTVxcHOPBFfEOPlX9hHDWl)
+[church YouTube Live streams](https://www.youtube.com/playlist?list=PLKlHRaG4bStPTVxcHOPBFfEOPlX9hHDWl)
 and IMAG (Image MAGnification - i.e. the screens for the congregation in the room).
 
 </details>
 
-<details><summary>Significant contributions to open-source data</summary>
+<details><summary>Significant contributions to open-source data.</summary>
 
 I've contributed extensively in the early days of MusicBrainz, OpenStreetMap and Stack overflow.
 
 </details>
+
+Feel free to reach out if you're interested in collaborating on a project or discussing web development.
