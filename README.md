@@ -1,89 +1,55 @@
-### Senior web developer in Oxford, UK
 
-<!--
-**rjmunro/rjmunro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Senior Full-Stack Engineer | TypeScript & Node | Broadcast & Live Production | Developer Tooling
 
-Here are some ideas to get you started:
+**Core Technologies**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Languages:** TypeScript, JavaScript, Python, PHP
+- **Frontend:** React
+- **Backend:** Node.js
+- **Databases:** PostgreSQL, MySQL, MongoDB
+- **DevOps & CI/CD:** Docker, docker-compose, GitHub Actions, GitLab CI, CircleCI, AWS CodeBuild, Jenkins, Travis
+- **Tooling:** Git, npm, Yarn, uv, Composer
 
-<details><summary>Over 25 years of experience developing websites, web applications and mobile applications, mostly in Typescript using React and NodeJS.</summary>
+### Over 25 years of experience
 
-I have over 25 years experience developing websites, web applications and mobile applications. My
-recent roles have been developing client-side and server-side applications in Typescript using React
-and NodeJS. Combined with my knowledge of databases like Postgres and MySQL, I deliver high-quality
-software that drives business success.
+- Deliver full-stack web and mobile applications in TypeScript, React, and Node.js across 25+ years in the industry.
+- Build reliable, data-driven software on PostgreSQL and MySQL that supports business outcomes.
 
-</details>
+### Stepping back to simplify
 
-<details><summary>Considered a "git wizard" by colleagues, with extensive experience in advanced Git workflows and CI/CD.</summary>
+- Re-architected timing for [Sofie **T-Timers**](https://github.com/Sofie-Automation/sofie-core/issues/1601) by moving calculations from the client to the server: running clocks receive only a `zeroTime` (future for countdowns, past for stopwatches/timers), paused clocks receive `remainingTime`, and both update only on state changes, with the client refreshing the display once per second via `setTimeout`.
+- Cut timer recalculation from 60/s to 1/s (~98% fewer ticks), substantially reducing frontend workload and enabling new custom timer types for client-specific broadcast workflows.
 
-I have given company wide talks on the git version control
-system. I have written pre-commit hooks to check code for linting errors before committing and worked
-on a tool to eliminate merge conflicts caused by linting fixes to a codebase. I have written a tool
-to find the last place in history that on old branch will rebase to without conflicts, which often
-makes resolving rebase conflicts easier. I've used git as a front end to svn in an svn-only company
-using the git-svn plugin which enabled me to manage my versions and commits locally then merge them
-centrally when they were tested and ready.
+### Considered a "git wizard" by colleagues
 
-I know my way around Github and Gitlab's CI services, including advanced configurations that ran
-different kinds of tests depending on different triggers and tests that contribute code back to the
-original repository. I have also used CircleCI, AWS Codebuild, Travis and Jenkins in the past. I have
-made a small [contribution](https://github.com/mislav/hub/pull/2704) to the original github "hub"
-command to fix a bug when a single commit has a large number of CI jobs.
+- Delivered company-wide Git talks and built tooling including pre-commit lint hooks to streamline advanced version-control workflows.
+- Configured GitHub Actions, GitLab CI, CircleCI, AWS CodeBuild, Travis, and Jenkins for trigger-based test pipelines; contributed a fix to the original GitHub [`hub`](https://github.com/mislav/hub/pull/2704) CLI.
+- Updated and improved [`sofie-code-standard-preset`](https://github.com/Sofie-Automation/sofie-code-standard-preset) with additional ESLint, Prettier, and EditorConfig rules to improve code readability, reduce style-driven merge conflicts, and free developers to focus on substance over style; added a setup CLI so new projects can adopt it in one command.
+- Maintain [`jamies-git-tools`](https://github.com/rjmunro/jamies-git-tools), including [`git-resolve-formatting-conflicts`](https://github.com/rjmunro/jamies-git-tools/blob/main/doc/git-resolve-formatting-conflicts.md), which automatically fixes formatting-only merge clashes, and [`git-bisect-rebase`](https://github.com/rjmunro/jamies-git-tools/blob/main/doc/git-bisect-rebase.md) to bring long-running branches up to date incrementally rather than resolving every conflict at once.
 
-</details>
+### Fan of configuration as code
 
-<details><summary>Fan of configuration as code, including developing tools for Redash BI server configuration and Bitfocus Companion.</summary>
+- Engineered [`redash-loader`](https://github.com/rjmunro/redash-loader) to export Redash BI queries and dashboards as version-controlled YAML, SQL, and JSON. Enabled tracked, branchable, and portable analytics configuration across environments.
+- Built YAML import/export for [Bitfocus Companion](https://github.com/bitfocus/companion) to manage live A/V and streaming setups.
+- Optimized Docker images to runtime-only binaries and orchestrated multi-container stacks with docker-compose.
 
-I like to ensure all configuration is managed as code and tracked in source control. I've written a
-[tool](https://github.com/rjmunro/redash-loader) to extract the query and dashboard configuration
-from a Redash BI server and store it as a series of YAML, SQL and JSON files that can be committed to
-git, allowing the state to be tracked, branched and reverted. It can also be loaded into other
-Redash instances running similar databases in different locations. I wrote the YAML import/export
-features in [Bitfocus companion](https://github.com/bitfocus/companion) to help us manage the A/V
-and streaming setup at my church.
+### Experienced with Agile practices and collaboration
 
-I have recent experience managing dependencies with npm and yarn for Javascript/Typescript and
-poetry for python. I have also used Ruby's bundler and PHP's composer.
+- Led sprint planning, retrospectives, and daily stand-ups in Agile teams.
 
-I have managed docker containers, optimising built containers to contain only the runtime binaries
-without the build tools. I've used docker-compose to orchestrate containers.
+### Hobbies and Community Contributions
 
-</details>
+#### Extensive volunteer experience in audio-visual operations
 
-<details><summary>Experienced with Agile practices and collaboration to find innovative solutions.</summary>
+- I direct and vision-mix live multi-camera video for [church YouTube Live streams](https://www.youtube.com/playlist?list=PLKlHRaG4bStPTVxcHOPBFfEOPlX9hHDWl) and in-room IMAG displays and graphics; over 25 years of volunteer A/V experience including camera operating and sound engineering.
 
-I'm experienced with Agile working practises and have led planning, retrospective and daily stand up
-meetings. I enjoy working with product owners to find innovative solutions that improve customer
-experience at the same time as streamlining development.
+#### Significant contributions to open-source data
 
-</details>
+- Contributed extensively to early MusicBrainz, OpenStreetMap, and Stack Overflow communities.
 
-#### Hobbies and Community Contributions
+### Available for my next project
 
-<details><summary>Extensive volunteer experience in audio-visual operations.</summary>
+- Delivered major [Sofie](https://github.com/Sofie-Automation/Sofie-TV-automation) TV automation features for the **BBC** and **SVT** through Superfly.
+- Based near Oxford; open to remote (global), hybrid, or local on-site.
 
-In my spare time I have a volunteered in audio-visual operation since I was a young teenager. I have
-about 20 years experience about once a month as a sound engineer, but I now mostly direct and vision
-mix live multi-camera video for our
-[church YouTube Live streams](https://www.youtube.com/playlist?list=PLKlHRaG4bStPTVxcHOPBFfEOPlX9hHDWl)
-and IMAG (Image MAGnification - i.e. the screens for the congregation in the room).
-
-</details>
-
-<details><summary>Significant contributions to open-source data.</summary>
-
-I've contributed extensively in the early days of MusicBrainz, OpenStreetMap and Stack overflow.
-
-</details>
-
-Feel free to reach out if you're interested in collaborating on a project or discussing web development.
+My Superfly contract is coming to its conclusion; I am now looking for my next project. Feel free to reach out to discuss broadcast automation, full-stack TypeScript, or developer tooling.
